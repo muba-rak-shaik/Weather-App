@@ -44,4 +44,5 @@ Use the API Key:
 In your application's code, include the API key in your requests to the OpenWeatherMap API. Typically, you'll pass the API key as a parameter in the request URL or as a header, depending on the API documentation.
 
 const apiKey = 'YOUR_API_KEY'; //ADD Your API KEY Here
+
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=CityName&appid=${apiKey}`;
